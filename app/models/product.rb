@@ -5,6 +5,8 @@ class Product < ActiveRecord::Base
 
   has_attached_file :file
 
+
+# SPINACH check out this validation
   validates_numericality_of :price,
     greater_than: 49,
     message: "must be at least 50 cents"

@@ -34,6 +34,7 @@ gem 'jquery-rails'
 gem 'devise', '~> 3.0.0.rc'
 gem 'paperclip', '~> 3.5.1'
 gem 'aws-sdk'
+gem "stripe", "~> 1.10.1"
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
