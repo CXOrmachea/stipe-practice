@@ -1,7 +1,7 @@
 class Product < ActiveRecord::Base
   belongs_to :user
   has_many :sales
-  attr_accessible :description, :name, :permalink, :price, :file
+  attr_accessible :description, :name, :permalink, :price, :file, :user
 
   has_attached_file :file
 
